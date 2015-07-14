@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+这是基于Jekyll的主题。你可以在[jekyllrb.com](http://jekyllrb.com/)上查看更多的信息。
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+在[github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)上查看Jekyll new theme的源代码。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+在[github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)上查看Jekyll的源代码
+
