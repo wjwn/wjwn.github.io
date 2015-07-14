@@ -3,25 +3,30 @@
 </head>
 <body>
 <script type="text/javascript">
-	function $(id){
-		return document.getElementById(id);
-	}
-	var now=new Date();
-	now=now.getTime();
-	//var start=new Date("2013-10-3");
-	var start=Date.UTC(2013,10,3,0,0,0,0);
-	window.alert("start:"+start);
-	window.alert("now:"+now);
-	var d=now-start;
-	window.alert("d:"+d);
-	d1=d/(24*3600*1000);
-	window.alert("d1:"+d1);
-	d=Math.floor(d/(24*3600*1000));
-	//var timer=document.getElementById("timer");
-	//$("timer").innerText=d;
-	//timer.innerText=d;
-	window.alert(d);
-	
-</script>
+		var now=new Date();
+		//var start=new Date("2013-10-3");
+		var start=new Date();
+		window.alert(now);
+		
+		start.setFullYear(2013);
+		start.setMonth(9);
+		start.setDate(03);
+		window.alert(start);
+		/*now.setYear(2015);
+		now.setMonth(07);
+		now.setDate(14);
+		*/
+		
+		window.alert("now year:"+now.getFullYear());
+		window.alert("now month:"+now.getMonth());
+		window.alert("now date:"+now.getDate());
+		var d=now.getTime()-start.getTime();
+		//d=Math.floor(d/1000/3600/24);
+		d=parseInt(d/parseInt(1000*3600*24));
+		//var timer=document.getElementById("timer");
+		//$("timer").innerText=d;
+		//timer.innerText=d;
+		window.alert(d);
+	  </script>
 </body>
 </html>
