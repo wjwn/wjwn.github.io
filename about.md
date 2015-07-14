@@ -9,3 +9,5 @@ comments: false
 
 在[github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)上查看Jekyll的源代码
 
+本站使用的是mmistakes提供的模板[hpstr-jekyll-theme](https://github.com/mmistakes/hpstr-jekyll-theme)
+
