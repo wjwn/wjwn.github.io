@@ -2,6 +2,26 @@
 <head>
 </head>
 <body>
-
+<script type="text/javascript">
+	function $(id){
+		return document.getElementById(id);
+	}
+	var now=new Date();
+	now=now.getTime();
+	//var start=new Date("2013-10-3");
+	var start=Date.UTC(2013,10,3,0,0,0,0);
+	window.alert("start:"+start);
+	window.alert("now:"+now);
+	var d=now-start;
+	window.alert("d:"+d);
+	d1=d/(24*3600*1000);
+	window.alert("d1:"+d1);
+	d=Math.floor(d/(24*3600*1000));
+	//var timer=document.getElementById("timer");
+	//$("timer").innerText=d;
+	//timer.innerText=d;
+	window.alert(d);
+	
+</script>
 </body>
 </html>

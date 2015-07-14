@@ -22,7 +22,19 @@
   <div class="header-title">
     <div class="header-title-wrap">
       <h1>{{ site.title }}</h1>
-      <h2>今天是第<label id="timer" ></label>天了</div></h2>
+      <h2>今天是第<span id="timer" ></span>天了</div></h2>
+	  <script type="text/javascript">
+		var now=new Date();
+		now=now.getTime();
+		//var start=new Date("2013-10-3");
+		var start=Date.UTC(2013,10,3,0,0,0,0);
+		var d=now-start;
+		d=Math.floor(d/(24*3600*1000));
+		var timer=document.getElementById("timer");
+		//$("timer").innerText=d;
+		timer.innerText=d;
+		//window.alert(d);
+	  </script>
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
