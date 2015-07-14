@@ -1,6 +1,7 @@
 title:            吴俊和我
 description:      Describe your website here.
 disqus_shortname: hpstrtheme
+# 设置显示阅读的时间
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -14,16 +15,7 @@ owner:
   bio:            "好好学习，天天向上."
   email:          ht.wenning@foxmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  weibo:        http://weibo.com/121387947
 
 # Background image to be tiled on all pages
 background: 
