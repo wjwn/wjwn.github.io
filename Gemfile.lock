@@ -142,6 +142,3 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   octopress
-
-BUNDLED WITH
-   1.10.5
